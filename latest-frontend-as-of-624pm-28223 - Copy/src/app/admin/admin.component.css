@@ -1,0 +1,183 @@
+.demo-table {
+  width: 100%;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image i {
+  display: block;
+  margin-top: 10px;
+}
+
+.table-responsive-md {
+  overflow-x: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 50px 0 150px;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* TABLE STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+  margin: 50px 0 20px;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid var(--table-border);
+}
+
+table th {
+  padding: 20px;
+}
+
+table td {
+  width: 100%;
+  padding: 10px;
+}
+
+table td:first-child {
+  position: relative;
+  padding-right: 60px;
+}
+
+table td:first-child::before {
+  display: none;
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+table td:nth-child(2) {
+  position: relative;
+}
+
+table tbody tr {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  counter-increment: counter;
+}
+
+table tbody tr::before {
+  content: counter(counter);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: bold;
+  z-index: 1;
+}
+
+table img {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 45%;
+  max-width: 150px;
+  z-index: 1;
+}
+
+.table-credits {
+  font-size: 12px;
+}
+
+/* MQ STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 999px) {
+  .visible\@l {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  table td {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+  table tbody {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  table tbody tr {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hidden\@l {
+    display: none;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  table {
+    border: none;
+  }
+
+  table th,
+  table td {
+    width: 25%;
+  }
+
+  table td:first-child {
+    padding-right: 0;
+  }
+
+  table tbody tr {
+    display: table-row;
+  }
+
+  table tbody tr::before {
+    display: none;
+  }
+}
+
+@media (hover: hover) and (min-width: 1000px) {
+  table tbody tr:hover {
+    cursor: pointer;
+  }
+  table tbody tr:hover img {
+    display: block;
+  }
+
+  table tbody tr:hover td:first-child::before {
+    display: block;
+  }
+}
+
+@media (min-width: 1250px) {
+  table td:first-child::before {
+    right: calc(100% + 20px);
+  }
+}

@@ -1,0 +1,69 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav mode="over">
+    <ng-container *ngIf="notLoggedIn()">
+      <a class="nav-link m-3" routerLink="/">
+        <i class="fa-solid fa-user-lock m-3"></i> Login</a
+      >
+
+      <a class="nav-link m-3" routerLink="/register">
+        <i class="fa-solid fa-user-plus m-3"></i> Register</a
+      >
+    </ng-container>
+
+    <ng-container *ngIf="!notLoggedIn()">
+      <ng-container *ngIf="!notLoggedIn()">
+        <img
+          class="image"
+          [src]="path.dbPath || '/assets/default_user_icon.png'"
+          class="w3-margin w3-circle responsive-img image"
+          alt="user"
+        />
+      </ng-container>
+      <a class="nav-link m-3" routerLink="/" (click)="onLogOut()">
+        <i class="fa-solid fa-user-lock m-3"></i> Log Out</a
+      >
+
+      <a class="nav-link m-3" routerLink="/profile/{{ username }}">
+        <i class="fa-solid fa-house-user m-3"></i> Profile</a
+      >
+
+      <a class="nav-link m-3" routerLink="/admin">
+        <i class="fa-solid fa-clipboard-user m-3"></i> Admin</a
+      >
+
+      <a class="nav-link m-3" routerLink="/home">
+        <i class="fa-solid fa-street-view m-3"></i>Directions</a
+      >
+
+      <a class="nav-link m-3" routerLink="/schedules">
+        <i class="fa-solid fa-clipboard m-3"></i> Schedules</a
+      >
+
+      <a class="nav-link m-3" routerLink="/favorites">
+        <i class="fa-solid fa-heart m-3"></i> Favorites
+      </a>
+    </ng-container>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="header">
+    <!-- <p><mat-checkbox [(ngModel)]="opened"></mat-checkbox></p> -->
+
+    <button mat-button (click)="sidenav.toggle()">
+      <i class="fa-solid fa-bars" style="font-size: 25pt"></i>
+    </button>
+
+    <img class="logo" src="../../assets/movEase_edited.png" alt="" />
+
+    <span style="font-weight: bolder; font-size: 20pt; color: rgb(0, 6, 123)">
+      mov</span
+    ><span style="font-weight: bolder; font-size: 25pt; color: goldenrod"
+      >Ease</span
+    >
+
+    <ng-container *ngIf="!notLoggedIn()">
+      <span class="float-end mt-3">Welcome {{ user }} </span>
+    </ng-container>
+
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

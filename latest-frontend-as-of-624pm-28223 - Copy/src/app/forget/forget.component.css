@@ -1,0 +1,36 @@
+.style {
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.width {
+    width:350px
+}
+
+.style{
+   border: 5px solid rgb(208, 231, 232); 
+   height: 40vh; 
+   width: 400px;
+   text-align: center;
+}
+
+h3{
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+p{
+    color: darkslategrey;
+    font-weight: lighter;
+}
+
+@media (max-width: 575px) {
+    .container {
+      width: 100vw;
+      height: fit-content;
+      
+    }
+}

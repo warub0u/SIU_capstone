@@ -1,0 +1,94 @@
+.profile-pic {
+  box-shadow: 0px 2px 12px 0px rgba(97, 93, 97, 1);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic .upload {
+  margin-left: 10px;
+  color: rgb(32, 32, 32);
+  opacity: 0;
+}
+
+.profile-pic .upload:hover {
+  opacity: 0.5;
+  color: black;
+  cursor: pointer;
+}
+.userImage {
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 220px;
+}
+
+.user p {
+  font-size: larger;
+}
+
+.display {
+  font-size: x-large;
+}
+
+.box {
+  width: 450px;
+}
+
+.spinner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+}
+
+:host {
+  height: inherit;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(13, 15, 29);
+}
+
+.btn-dark {
+  color: rgb(226, 227, 235);
+}
+
+/* .logo{
+    background-image: url("../../assets/tile_background.png");
+  } */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 80%;
+  box-shadow: 12px 12px 2px 1px rgba(10, 10, 59, 0.629);
+  border: 2px solid rgb(20, 18, 18);
+}
+
+.upload-container {
+    /* Basic styles */
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+    /* Additional styles for responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  .responsive-img {
+    max-width: 200px;
+    min-width: 50px;
+    width: 40%;
+    height: auto;
+}

@@ -1,0 +1,103 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.example-events {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #555;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+}
+
+mat-toolbar {
+  background: black;
+  color: white;
+}
+
+mat-sidenav {
+  width: 200px;
+  border-right: none;
+  background: rgb(82, 81, 81);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.float-end {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(20, 10, 47);
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .float-end {
+    display: none;
+  }
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+/* @media (max-width: 750px) {
+  .image {
+    width: 68%;
+    height: 25%;
+  }
+} */
+
+@media (max-width: 700px) {
+  .image {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .logo {
+    width: 10%;
+    height: 10%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .image {
+    width: 66%;
+    height: 15%;
+  }
+
+  .logo {
+    width: 10%;
+    height: 15%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .image {
+    width: 66%;
+    height: 15%;
+  }
+  .logo {
+    width: 8%;
+    height: 13%;
+  }
+}

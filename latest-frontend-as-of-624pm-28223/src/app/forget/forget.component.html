@@ -1,0 +1,32 @@
+<div class="container d-flex justify-content-center style">
+  <div class="row m-3">
+    <div class="col">
+      <h3>Forgot Password?</h3>
+
+      <p>
+        Please enter your email address and we'll send you an email with
+        instructions to reset your password.
+      </p>
+    </div>
+    <form (ngSubmit)="forgetPassword()">
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="width">
+            <mat-label
+              >Email <i class="fa-solid fa-envelope-open-text"></i
+            ></mat-label>
+            <input matInput [formControl]="Email" />
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button mat-raised-button color="primary" class="mb-3 width">
+            Submit
+          </button>
+          <a class="float-end" href="/">cancel</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

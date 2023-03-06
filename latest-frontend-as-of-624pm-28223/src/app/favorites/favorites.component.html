@@ -1,0 +1,227 @@
+<div class="container">
+  <div class="w3-container">
+    <div class="d-flex justify-content-center">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            MRT
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            TRANSIT
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            BUS
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+        tabindex="0"
+      >
+      <div *ngIf="isLoading">
+        <img src="../../assets/movease.gif" style="height: 100%; width: 100%;">
+      </div>
+        <div class="justify-content-center">
+          <!-- //<div class="d-flex align-items-start"> -->
+          <div class="row">
+            <div class="container">
+              <ng-container *ngFor="let y of favList">
+                <div
+                  class="row mt-3"
+                  *ngIf="y.mode == 'BUS'"
+                  style="color: black"
+                >
+                  <div class="col-md-7">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      [src]="sanitizer.bypassSecurityTrustResourceUrl(y.mapUrl)"
+                      allowfullscreen = "allowfullscreen"
+                      allow="fullscreen"
+                    ></iframe>
+                  </div>
+
+                  <div class="col-md-5">
+                    <p class="float-end" (click)="delete(y.id)">X</p>
+                    <p>
+                      {{ y.source }}
+                      <i class="fa-solid fa-arrow-right"></i>
+                      {{ y.destination }}
+                    </p>
+                    <p>
+                      <i
+                        class="fa-solid fa-map-location-dot"
+                        (click)="loadRoute(y)"
+                      >
+                        MAP</i
+                      >
+                      <span class="float-end"
+                        ><button class="btn btn-dark" (click)="getRoute(y)">
+                          ROUTE
+                        </button></span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+          <!-- //</div> -->
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+        tabindex="0"
+      >
+        <!-- <mat-spinner *ngIf="isLoading" class="spinner-overlay"></mat-spinner> -->
+        <div class="justify-content-center">
+          <!-- <div class="d-flex align-items-start"> -->
+          <div class="row">
+            <div class="container">
+              <ng-container *ngFor="let y of favList">
+                <div
+                  class="row mt-3"
+                  *ngIf="y.mode == 'RAIL'"
+                  style="color: black"
+                >
+                  <div class="col-md-7">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      [src]="sanitizer.bypassSecurityTrustResourceUrl(y.mapUrl)"
+                    ></iframe>
+                  </div>
+
+                  <div class="col-md-5">
+                    <p class="float-end" (click)="delete(y.id)">X</p>
+                    <p>
+                      {{ y.source }}
+                      <i class="fa-solid fa-arrow-right"></i>
+                      {{ y.destination }}
+                    </p>
+                    <p>
+                      <i
+                        class="fa-solid fa-map-location-dot"
+                        (click)="loadRoute(y)"
+                      >
+                        MAP</i
+                      >
+                      <span class="float-end"
+                        ><button class="btn btn-dark" (click)="getRoute(y)">
+                          ROUTE
+                        </button></span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+          <!-- //</div> -->
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+        tabindex="0"
+      >
+        <!-- <mat-spinner *ngIf="isLoading" class="spinner-overlay"></mat-spinner> -->
+        <div class="justify-content-center">
+          <!-- <div class="d-flex align-items-start"> -->
+          <div class="row">
+            <div class="row">
+              <div class="container">
+                <ng-container *ngFor="let y of favList">
+                  <div
+                    class="row mt-3"
+                    *ngIf="y.mode == 'BUS'"
+                    style="color: black"
+                  >
+                    <div class="col-md-7">
+                      <iframe
+                        width="100%"
+                        height="100%"
+                        frameBorder="0"
+                        [src]="
+                          sanitizer.bypassSecurityTrustResourceUrl(y.mapUrl)
+                        "
+                      ></iframe>
+                    </div>
+
+                    <div class="col-md-5">
+                      <p class="float-end" (click)="delete(y.id)">X</p>
+                      <p>
+                        {{ y.source }}
+                        <i class="fa-solid fa-arrow-right"></i>
+                        {{ y.destination }}
+                      </p>
+                      <p>
+                        <i
+                          class="fa-solid fa-map-location-dot"
+                          (click)="loadRoute(y)"
+                        >
+                          MAP</i
+                        >
+                        <span class="float-end"
+                          ><button class="btn btn-dark" (click)="getRoute(y)">
+                            ROUTE
+                          </button></span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+            <!-- //</div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

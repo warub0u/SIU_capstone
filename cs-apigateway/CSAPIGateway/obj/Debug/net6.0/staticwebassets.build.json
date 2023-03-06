@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+/wij42q80HX00KnpzJqHoruQoMYTcnSc7B8k7FrXqA=",
+  "Source": "CSAPIGateway",
+  "BasePath": "_content/CSAPIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

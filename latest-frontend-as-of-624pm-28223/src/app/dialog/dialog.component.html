@@ -1,0 +1,46 @@
+<h1 mat-dialog-title>Welcome {{username}}</h1>
+<div mat-dialog-content>
+  <mat-list role="list">
+
+      <mat-list-item role="listitem"
+        > {{data.taxiobj.source}} <i class="fa-solid fa-arrow-right"></i> {{data.taxiobj.destination}}
+       </mat-list-item>
+        <ng-container >
+                <mat-panel-title>
+                    <mat-button-toggle-group name="favoriteColor" aria-label="Favorite Color">
+                        <mat-button-toggle value="Meter">
+                            <p>By Meter: Taxi <i class="fa-regular fa-circle-check"></i></p> 
+                            <p>${{meterFare}} ~ ${{meterFare + 3}} </p>
+                        </mat-button-toggle>
+
+                        <mat-button-toggle value="CDG">
+                           <p>ComfortRIDE : Taxi <i class="fa-solid fa-car-on"></i></p> 
+                           <p>${{CDGFare}}</p>
+                        </mat-button-toggle>
+                      </mat-button-toggle-group>
+                </mat-panel-title>
+             
+        <div class="row mt-3">
+            <div class="col">
+                <i class="fa-solid fa-hand-holding-dollar"></i> Pay Onboard
+            </div>
+            <div class="col">  
+                <i class="fa-solid fa-person"></i> Personal Trip
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+             <p>*Fare excludes ERP/extra stop/surge pricing.</p>   
+            </div>
+        </div>
+          
+       
+        </ng-container>
+    <mat-divider></mat-divider>
+    <mat-list-item role="listitem"></mat-list-item>
+  </mat-list>
+</div>
+<div mat-dialog-actions>
+  <button mat-button cdkFocusInitial (click)="onCancel()">CLOSE</button>
+</div>
+

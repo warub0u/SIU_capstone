@@ -1,0 +1,60 @@
+<h1 mat-dialog-title>Welcome {{username}}</h1>
+<div mat-dialog-content>
+  <mat-list role="list">
+    <ng-container *ngFor="let x of data.myArr">
+      <ng-container *ngIf="x.legSource != 'Origin'">
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">{{ x.legSource }}</mat-list-item>
+        <mat-divider></mat-divider>
+      </ng-container>
+      <ng-container *ngIf="x.legSource == 'Origin'">
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">Your location</mat-list-item>
+        <mat-divider></mat-divider>
+      </ng-container>
+
+      <mat-list-item role="listitem"
+        ><i class="fa-solid fa-arrow-down-long"></i> 
+        <ng-container *ngIf="x.methodOfTransport == 'WALK' ">
+          <i class="fa-solid fa-person-walking"></i>
+        </ng-container>
+
+        <ng-container *ngIf="x.methodOfTransport == 'BUS' ">
+          <i class="fa-solid fa-bus-simple"></i>
+        </ng-container>
+
+        <ng-container *ngIf="x.methodOfTransport == 'SUBWAY' ">
+          <i class="fa-solid fa-train"></i>
+        </ng-container>
+        {{ x.methodOfTransport }}
+
+
+        <ng-container *ngIf="x.routeType != null">
+         : {{x.routeType}}
+        </ng-container>
+        for {{ x.legDurationNum }} Minute(s)</mat-list-item>
+        <ng-container *ngIf = "x.intermediateStops.length != 0">
+        <mat-accordion>
+            <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Stops: 
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <ng-container *ngFor="let y of x.intermediateStops">
+                <p>{{y}}</p>
+              </ng-container>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </ng-container>
+
+      <mat-list-item role="listitem"></mat-list-item>
+    </ng-container>
+    <mat-divider></mat-divider>
+    <mat-list-item role="listitem">{{ data.endpoint }}</mat-list-item>
+  </mat-list>
+</div>
+<div mat-dialog-actions>
+  <button mat-button cdkFocusInitial (click)="onCancel()">CLOSE</button>
+</div>

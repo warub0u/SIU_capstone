@@ -1,0 +1,329 @@
+<div
+  class="container-fluid"
+  style="background-color: rgba(246, 240, 240, 0.528)"
+>
+  <div class="row">
+    <!-- left container -->
+
+    <div class="col-md-9 full-height border-top border-secondary">
+      <div class="map-container">
+        <div class="map-frame">
+          <div id="mapdiv" style="height: 100%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top right container -->
+    <div class="col-md-3 border-top border-secondary">
+     
+      <div class="row mt-3">
+        <div class="col-md-1"></div>
+        <div
+          class="col-md-10 px-3 py-3 rounded border border-3 border-dark"
+          style="background-color: rgb(154, 166, 187)"
+        >
+          <div class="search-container">
+            <div class="search">
+              <div class="row">
+                <ng-container *ngIf="!isLoading">
+                  <form [formGroup]="directionForm" (ngSubmit)="click2()">
+                    <div class="row">
+                      <mat-form-field>
+                        <mat-label>Origin</mat-label>
+                        <input
+                          matInput
+                          formControlName="Source"
+                          id="txtSearchPlaces"
+                          name="txtSearchPlaces"
+                        />
+                      </mat-form-field>
+                    </div>
+                    <div class="row">
+                      <i
+                        class="fa-solid fa-circle-arrow-down m-3 justify-content-center d-flex"
+                        style="font-size: 20pt"
+                      ></i>
+                    </div>
+                    <div class="row">
+                      <mat-form-field class="example-full-width">
+                        <mat-label>Destination</mat-label>
+                        <input
+                          matInput
+                          formControlName="Destination"
+                          id="txtSearchPlaces2"
+                          name="txtSearchPlaces2"
+                        />
+                      </mat-form-field>
+                    </div>
+                    <div class="row">
+                      <div class="submitbtn">
+                        <button
+                          class="btn btn-dark btn-sm btn-rounded"
+                          style="width: 100%"
+                        >
+                          submit
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </ng-container>
+                <ng-container *ngIf="isLoading">
+                  <div
+                    class="d-flex align-content-center"
+                    style="justify-content: center"
+                  >
+                    <img
+                      src="../../assets/movease.gif"
+                      style="width: 100%; height: 100%"
+                      alt=""
+                    />
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <!-- bottom right container -->
+      <div class="row pt-3 mt-3">
+        <div class="col-md-0"></div>
+        <div class="col-md-12">
+          <div class="row d-flex justify-content-center">
+            <div class="route-cards">
+              <div class="menu">
+                <mat-tab-group class="tabs">
+                  <mat-tab>
+                    <ng-template mat-tab-label>
+                      <i class="fa-solid fa-train" (click)="plotRoute('MRT')">
+                        MRT</i
+                      >
+                    </ng-template>
+                    <mat-card class="example-card">
+                      <mat-card-header>
+                        <div class="col-11">
+                          <button
+                            mat-stroked-button
+                            color="btn-dark"
+                            (click)="openDialog(mrtArr)"
+                            [disabled]="mrtArr.length == 0"
+                          >
+                            FULL ROUTE
+                          </button>
+                        </div>
+                        <div class="col">
+                          <i
+                            class="fa-solid fa-heart float-end"
+                            style="font-size: 20pt; color: darkred"
+                            (click)="submit('RAIL')"
+                            *ngIf="mrtArr.length"
+                          ></i>
+                        </div>
+                      </mat-card-header>
+                      <mat-card-content>
+                        <div class="row">
+                          <div class="col-md-2"></div>
+                          <div class="col-md-8">
+                            <img
+                              class="image"
+                              mat-card-image
+                              src="../../assets/train.bmp"
+                              alt=""
+                            />
+                          </div>
+                          <div class="col-md-2"></div>
+                        </div>
+                        <div class="row">
+                          <div class="col d-flex justify-content-center">
+                            <p>
+                              <ng-container *ngIf="Duration != 0">
+                                <p>
+                                  Estimated duration: {{ Durationz }} Minutes
+                                </p>
+                                <p>Estimated fare: ${{ farez }}</p>
+                              </ng-container>
+                            </p>
+                          </div>
+                        </div>
+                      </mat-card-content>
+                      <mat-card-actions></mat-card-actions>
+                    </mat-card>
+                  </mat-tab>
+
+                  <mat-tab>
+                    <ng-template mat-tab-label>
+                      <i
+                        class="fa-solid fa-bus-simple"
+                        (click)="plotRoute('BUS')"
+                      >
+                        BUS</i
+                      >
+                    </ng-template>
+                    <mat-card class="example-card">
+                      <mat-card-header>
+                        <div class="col-11">
+                          <button
+                            mat-stroked-button
+                            color="btn-dark"
+                            (click)="openDialog(busArr)"
+                            [disabled]="busArr.length == 0"
+                          >
+                            FULL ROUTE
+                          </button>
+                        </div>
+                        <div class="col">
+                          <i
+                            class="fa-solid fa-heart float-end"
+                            style="font-size: 20pt; color: darkred"
+                            (click)="submit('BUS')"
+                            *ngIf="busArr.length"
+                          ></i>
+                        </div>
+                      </mat-card-header>
+                      <mat-card-content>
+                        <div class="row">
+                          <div class="col-md-2"></div>
+                          <div class="col-md-8">
+                            <img
+                              class="image"
+                              mat-card-image
+                              src="../../assets/Bus.bmp"
+                              alt=""
+                            />
+                          </div>
+                          <div class="col-md-2"></div>
+                        </div>
+                        <div class="row">
+                          <div class="col d-flex justify-content-center">
+                            <p>
+                              <ng-container *ngIf="Duration != 0">
+                                <p>
+                                  Estimated duration: {{ Durationy }} Minutes
+                                </p>
+                                <p>Estimated fare: ${{ farey }}</p>
+                              </ng-container>
+                            </p>
+                          </div>
+                        </div>
+                      </mat-card-content>
+                      <mat-card-actions></mat-card-actions>
+                    </mat-card>
+                  </mat-tab>
+
+                  <mat-tab>
+                    <ng-template mat-tab-label>
+                      <i
+                        class="fa-solid fa-train m"
+                        (click)="plotRoute('TRANSIT')"
+                      >
+                        +
+                        <i
+                          class="fa-solid fa-bus-simple"
+                          (click)="plotRoute('TRANSIT')"
+                        >
+                          TRANSIT
+                        </i></i
+                      >
+                    </ng-template>
+                    <mat-card class="example-card">
+                      <mat-card-header>
+                        <div class="col-11">
+                          <button
+                            mat-stroked-button
+                            color="btn-dark"
+                            (click)="openDialog(transitArr)"
+                            [disabled]="transitArr.length == 0"
+                          >
+                            FULL ROUTE
+                          </button>
+                        </div>
+                        <div class="col">
+                          <i
+                            class="fa-solid fa-heart float-end"
+                            style="font-size: 20pt; color: darkred"
+                            (click)="submit('TRANSIT')"
+                            *ngIf="transitArr.length"
+                          ></i>
+                        </div>
+                      </mat-card-header>
+                      <mat-card-content>
+                        <div class="row">
+                          <div class="col-md-2"></div>
+                          <div class="col-md-8">
+                            <img
+                              class="image"
+                              mat-card-image
+                              src="../../assets/train and bus2.bmp"
+                              alt=""
+                            />
+                          </div>
+                          <div class="col-md-2"></div>
+                        </div>
+                        <div class="row">
+                          <div class="col d-flex justify-content-center">
+                            <p>
+                              <ng-container *ngIf="Duration != 0">
+                                <p>
+                                  Estimated duration: {{ Duration }} Minutes
+                                </p>
+                                <p>Estimated fare: ${{ fare }}</p>
+                              </ng-container>
+                            </p>
+                          </div>
+                        </div>
+                      </mat-card-content>
+                      <mat-card-actions></mat-card-actions>
+                    </mat-card>
+                  </mat-tab>
+
+                  <mat-tab>
+                    <ng-template mat-tab-label>
+                      <i
+                        class="fa-solid fa-car-on"
+                        (click)="openDialog2(); plotRoute('TAXI')"
+                        >TAXI</i
+                      >
+                    </ng-template>
+                    <mat-card class="example-card">
+                      <mat-card-header>
+                        <div class="col-11">
+                          <button
+                            mat-stroked-button
+                            color="btn-dark"
+                            (click)="openDialog2()"
+                            [disabled]="transitArr.length == 0"
+                          >
+                            GET A CAB
+                          </button>
+                        </div>
+                        <div class="col"></div>
+                      </mat-card-header>
+                      <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                          <img
+                            class="image"
+                            mat-card-image
+                            src="../../assets/taxi.bmp"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-md-2"></div>
+                      </div>
+                      <mat-card-content>
+                        <p></p>
+                      </mat-card-content>
+                      <mat-card-actions></mat-card-actions>
+                    </mat-card>
+                  </mat-tab>
+                </mat-tab-group>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-0"></div>
+      </div>
+    </div>
+  </div>
+</div>

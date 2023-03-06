@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  authservice:
+    image: teokh/loginapi
+    ports:
+      - "5050:80"
+    environment:
+      - MONGODB_CONNECTIONSTRING=mongodb://mongo_auth:27017
+
+  mongo_auth:
+    image: mongo
+    ports:
+      - "27017:27017"   
+
+

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PaNv2VtlQnmFWcRZea6bKjmWajnQCiMuJheZWJyw4RA=",
+  "Source": "taxiapi",
+  "BasePath": "_content/taxiapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

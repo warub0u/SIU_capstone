@@ -1,0 +1,417 @@
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.AssemblyReference.cache
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfoInputs.cache
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfo.cs
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CoreCompileInputs.cache
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\appsettings.json
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.exe
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.deps.json
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.runtimeconfig.json
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.pdb
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\DnsClient.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\SharpCompress.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Snappier.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\ZstdSharp.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\scopedcss\bundle\LoginAPI.styles.css
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CopyComplete
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\refint\LoginAPI.dll
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.pdb
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.genruntimeconfig.cache
+D:\PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\ref\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\appsettings.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.exe
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.deps.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.runtimeconfig.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.pdb
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\DnsClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Humanizer.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\SharpCompress.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Snappier.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\ZstdSharp.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.AssemblyReference.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfoInputs.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfo.cs
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CoreCompileInputs.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\scopedcss\bundle\LoginAPI.styles.css
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CopyComplete
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\refint\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.pdb
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.genruntimeconfig.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\obj\Debug\net6.0\ref\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\AspNetCore.Identity.MongoDbCore.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.MongoDB.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\LoginAPI\bin\Debug\net6.0\MongoDbGenericRepository.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\appsettings.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.exe
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.deps.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.runtimeconfig.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\LoginAPI.pdb
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\AspNetCore.Identity.MongoDbCore.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\DnsClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Humanizer.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.MongoDB.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\MongoDbGenericRepository.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\SharpCompress.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Snappier.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\ZstdSharp.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.AssemblyReference.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfoInputs.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfo.cs
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CoreCompileInputs.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\scopedcss\bundle\LoginAPI.styles.css
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CopyComplete
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\refint\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.pdb
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\LoginAPI.genruntimeconfig.cache
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\obj\Debug\net6.0\ref\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\appsettings.json
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.exe
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.deps.json
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.runtimeconfig.json
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.pdb
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\AspNetCore.Identity.MongoDbCore.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\DnsClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Humanizer.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.MongoDB.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDbGenericRepository.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\SharpCompress.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Snappier.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\ZstdSharp.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.AssemblyReference.cache
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfoInputs.cache
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfo.cs
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CoreCompileInputs.cache
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\scopedcss\bundle\LoginAPI.styles.css
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CopyComplete
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\refint\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.pdb
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.genruntimeconfig.cache
+D:\CAPSTONE PROJECT\LOGINAPI BACKUP\loginapi-master\LoginAPI\obj\Debug\net6.0\ref\LoginAPI.dll
+D:\CAPSTONE PROJECT\LOGINAPI\LoginAPI\bin\Debug\net6.0\Consul.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.exe
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.deps.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.runtimeconfig.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\LoginAPI.pdb
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\AspNetCore.Identity.MongoDbCore.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Consul.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\DnsClient.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.MongoDB.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\MongoDbGenericRepository.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Snappier.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.AssemblyReference.cache
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfoInputs.cache
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.AssemblyInfo.cs
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CoreCompileInputs.cache
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets\msbuild.LoginAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginAPI.props
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginAPI.props
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginAPI.props
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\scopedcss\bundle\LoginAPI.styles.css
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.csproj.CopyComplete
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\refint\LoginAPI.dll
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.pdb
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\LoginAPI.genruntimeconfig.cache
+C:\Users\zaele\OneDrive\Desktop\TEMUS\capstone\khv2login\loginapi-master\LoginAPI\obj\Debug\net6.0\ref\LoginAPI.dll

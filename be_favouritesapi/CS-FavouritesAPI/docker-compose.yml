@@ -1,0 +1,20 @@
+version: "3.5"
+services:
+  #service for api
+  customerservice:
+    image: warub0u/favoritesapi
+    ports:
+      - "5055:80"
+    environment:
+      SQL_DB: "Server=sqldb;Initial Catalog=FavouritesDB;User Id=sa;password=temus@123" 
+        #use sql server running inside docker, not our local host. Same as container name
+        
+
+        #service for sql database
+  sqldb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1433:1433"
+    environment:
+      - SA_PASSWORD=temus@123 #anything we want
+      - ACCEPT_EULA=Y #end user license agreement

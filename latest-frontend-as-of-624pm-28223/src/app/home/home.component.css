@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dark-input {
+  background-color: #424242;
+  color: #000000;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.img {
+  width: auto;
+}
+
+.image {
+  width: 100%;
+  /* height: 40%; */
+}
+
+/* search */
+.search {
+  /* position: relative; */
+  left: 0px;
+  z-index: 1;
+  width: 100%;
+  /* bottom: 0; */
+}
+
+.submitbtn {
+  position: relative;
+  z-index: 2;
+  opacity: 100%;
+}
+
+/* route cards */
+.route-cards {
+  width: 95%;
+}
+
+/* map */
+.map-container {
+  height: 100%;
+  width: 100%;
+  /* position: fixed; */
+  z-index: 2;
+  /* top: 35px;
+  left: auto;
+  right: auto;
+  bottom: 0;
+  margin: auto; */
+}
+
+.menu {
+  width: 100%;
+}
+
+.tabs {
+  width: 100%;
+}
+.map-frame {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
+/* cards */
+/* .tabs{
+    width:100%;
+  } */
+/* .example-card{
+    width:auto;
+  } */
+
+.example-tab-icon {
+  margin-right: 10%;
+}
+
+.full-height {
+  height: 90vh;
+}
+
+/* map */
+.search-container {
+}
+
+@media (max-width: 500px) {
+  /* .full-height{
+    height:50vh;
+  } */
+
+  .full-height {
+    height: 50vh;
+    margin-bottom: 20px;
+  }
+}

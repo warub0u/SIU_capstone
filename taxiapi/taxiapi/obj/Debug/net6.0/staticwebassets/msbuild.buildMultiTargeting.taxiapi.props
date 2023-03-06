@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\taxiapi.props" />
+</Project>

@@ -1,0 +1,141 @@
+<body>
+  <!-- <img src="../../assets/login-bggif_freeze.jpg" alt="" /> -->
+  <div class="container d-flex justify-content-center section">
+    <div>
+      <form
+        class="example-form"
+        [formGroup]="registerForm"
+        (ngSubmit)="onSubmit()"
+      >
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-form-field style="width: 225px">
+              <mat-label>First Name</mat-label>
+              <input matInput formControlName="firstName" />
+            </mat-form-field>
+            <div
+              class="text-danger"
+              *ngIf="firstName?.dirty && firstName?.invalid"
+            >
+              First name is required.
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <mat-form-field style="width: 225px">
+              <mat-label>Last Name </mat-label>
+              <input matInput formControlName="lastName" />
+            </mat-form-field>
+            <div
+              class="text-danger"
+              *ngIf="lastName?.dirty && lastName?.invalid"
+            >
+              Last name is required.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-radio-group
+              aria-label="Select an option"
+              formControlName="gender"
+              class="color"
+            >
+              <p style="color: black; font-size: 10pt">Select your gender</p>
+              <mat-radio-button value="female" class="m-3"
+                >Female</mat-radio-button
+              >
+              <mat-radio-button value="male" class="m-3">Male</mat-radio-button>
+              <mat-radio-button value="other" class="m-3"
+                >Prefer not to say</mat-radio-button
+              >
+            </mat-radio-group>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-form-field style="width: 225px">
+              <mat-label>Username</mat-label>
+              <input matInput formControlName="UserName" />
+            </mat-form-field>
+            <div
+              class="text-danger"
+              *ngIf="UserName?.dirty && UserName?.invalid"
+            >
+              UserName is required.
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <mat-form-field style="width: 225px">
+              <mat-label>DOB [YYYY-MM-DD] </mat-label>
+              <input matInput formControlName="DOB" />
+            </mat-form-field>
+            <div class="text-danger" *ngIf="DOB?.dirty && DOB?.invalid">
+              DOB is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-form-field style="width: 225px">
+              <mat-label>Mobile number</mat-label>
+              <input matInput formControlName="mobileNo" />
+            </mat-form-field>
+            <div
+              class="text-danger"
+              *ngIf="mobileNo?.dirty && mobileNo?.invalid"
+            >
+              Mobile number of 8 numbers is required.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <mat-form-field style="width: 225px">
+              <mat-label>Postal Code</mat-label>
+              <input matInput formControlName="postalCode" />
+            </mat-form-field>
+            <div
+              class="text-danger"
+              *ngIf="postalCode?.dirty && postalCode?.invalid"
+            >
+              postal code of 6 numbers is required.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-form-field>
+              <mat-label>Email</mat-label>
+              <input matInput formControlName="Email" />
+            </mat-form-field>
+            <div class="text-danger" *ngIf="Email?.dirty && Email?.invalid">
+              Email is required.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <mat-form-field>
+              <mat-label>Password</mat-label>
+              <input matInput type="password" formControlName="Password" />
+            </mat-form-field>
+            <div
+              class="text-danger"
+              *ngIf="Password?.dirty && Password?.invalid"
+            >
+              Password of min 6 characters is required.
+            </div>
+          </div>
+        </div>
+        
+        <button type="submit" class="my-button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          SUBMIT
+        </button>
+      </form>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,84 @@
+
+<div class="container image" >
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="input-group mt-3">
+        <input type="text" class="form-control" placeholder="   Notifications" aria-label="   Notifications" aria-describedby="basic-addon2" [(ngModel)]="notification" type="text" name="notification">
+        <div class="input-group-append">
+          <button class="btn btn-danger" type="button"><i class="fa-regular fa-message m-3" (click)="onClick(notification)" ></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <div class="row">
+      <table class=" table table-striped table-dark">
+        <thead class="visible@l">
+          <tr>
+            <th scope="col">User Name</th>
+              <th scope="col" >Birthdate</th>
+              <th scope="col" >Email</th>
+              <th scope="col" >Mobile No.</th>
+              <th scope="col">Admin</th>
+              <th scope="col">Blocked</th>
+              <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let x of dataArr">
+            <td scope="row">
+              <strong class="hidden@l">Username : </strong> 
+              {{ x.userName }}
+            </td>
+            <td scope="row">
+              <strong class="hidden@l">Birthdate : </strong> 
+              {{ x.dob}}
+            </td>
+            <td scope="row">
+              <strong class="hidden@l">Email : </strong> 
+              {{ x.email}}
+            </td>
+            <td scope="row">
+              <strong class="hidden@l">Mobile No : </strong> 
+              {{ x.mobileNo}}
+            </td>
+            <td scope="row">
+              <strong class="hidden@l">Admin  </strong> 
+              <input class="m-1"
+                  type="checkbox"
+                  [checked]="x.role == 'Admin'"
+                  (change)="x.role = $any($event.target)?.checked ? 'Admin' : 'User'" />
+            </td>
+            <td scope="row">
+              <strong class="hidden@l">Blocked </strong> 
+              <input class ="m-1"
+                  type="checkbox"
+                  [checked]= "x.isBlocked"
+                  (change)="x.isBlocked = $any($event.target)?.checked"
+                />
+            </td>
+            <td scope="row">
+              <strong class="hidden@l"> </strong> 
+              <button
+              class="btn btn-danger btn-sm btn-rounded m-1"
+              (click)="onSubmit(x.userName, x.role, x.isBlocked)"
+            >
+              <i class="fa-solid fa-cloud-arrow-down m-2"></i>
+            </button>
+            </td>
+          </tr>
+          
+          
+        </tbody>
+      </table>
+    </div>
+    </div>
+    </div>
+
+
+ 
+
+
+ 

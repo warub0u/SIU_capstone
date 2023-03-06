@@ -1,0 +1,106 @@
+
+<div class="container">
+  <div> 
+<div class="row">
+  <div class="col-3">
+    <div>
+      <p class="d-none d-sm-block"><i class="fa-solid fa-bookmark button1"></i> Bookmarked Stops</p>
+
+
+<button class="btn btn-dark d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fa-solid fa-bookmark"></i> Stops</button>
+<div class="offcanvas-sm offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Bookmarked Stops</h5>
+    <button type="button"  data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" ></button>
+  </div>
+  <div class="offcanvas-body">
+    <p> 
+     
+      <mat-card class="m-3" *ngFor="let x of busStopArr">
+      <mat-card-content>
+        <span class="span"><i class="fa-solid fa-location-dot" (click) ="getStop(x.busCode)"  data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive"></i></span>
+        <span class="float-end span1"><i class="fa-solid fa-circle-minus" (click)="delStop(x.id)" ></i></span>
+        <mat-card-title-group>
+        <mat-card-title>{{x.busStopName}}</mat-card-title>
+        <mat-card-subtitle>{{x.busCode}}</mat-card-subtitle>
+        </mat-card-title-group>
+      </mat-card-content>
+    </mat-card>
+  </p>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+    
+ 
+  <div class="col-6">
+<div class="row">
+
+
+  <form  (ngSubmit) ="OnSubmit()">
+    <div class="row">
+   
+      <div class="form-group">
+        <label for="exampleInputEmail1"></label>
+<!-- added busstopinput -->
+        <input [formControl] = "busStop" class="form-control busstopinput" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Bus Stop Code">
+        <small id="emailHelp" class="form-text text-muted m-3">Save stops by bookmarking them!</small>
+      </div>
+
+  </div>
+  <div class="row">
+<!-- added busbtn -->
+    <button class="btn btn-dark btn-rounded busbtn">
+      Get Buses
+    </button>
+    </div>
+
+  </form>
+
+
+
+    <div class="row">
+      <div class="col"> 
+       <span class="m-3 style"><i class="fa-solid fa-bookmark button" (click)="submitStop()"></i> {{busStopName}} </span>
+      </div>
+    </div>
+    
+     
+  
+
+  <div class="row m-3">
+    <div class="col">
+    <mat-card class ="m-3"  *ngFor="let x of busArr">
+        <mat-card-content>
+         
+              <span style="font-size:xx-large; font-weight: bolder;">{{x.busNo}}</span>
+                  <p class="hrs">Next <i class="fa-solid fa-bus"></i> {{x.firstTime}}hrs</p>
+                  <ng-container *ngIf="x.firstDur == 0">
+                    <p matListItemLine class="style1">Arriving NOW</p>
+                  </ng-container>
+                  <ng-container *ngIf="x.firstDur != 0">
+                    <p matListItemLine class="style2">Arriving {{x.firstDur}} min(s)</p>
+                  </ng-container>  
+
+                  <ng-container *ngIf="x.secondDur">
+                  <span class="float-end"><i class="fa-solid fa-angle-right"></i>{{x.secondDur}} min(s) 
+                    <ng-container *ngIf="x.thirdDur">
+                    <i class="fa-solid fa-angles-right"></i> {{x.thirdDur}} min(s)
+                  </ng-container> </span>  
+                </ng-container> 
+
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+

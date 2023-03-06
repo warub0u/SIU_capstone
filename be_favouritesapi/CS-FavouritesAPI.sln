@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS-FavouritesAPI", "CS-FavouritesAPI\CS-FavouritesAPI.csproj", "{B7A74DCC-D365-4963-907F-BADB49C4798E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-FavouritesTest", "CS-FavouritesTest\CS-FavouritesTest.csproj", "{FF368E03-216B-4C09-A6AF-6FD9AE77AE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A74DCC-D365-4963-907F-BADB49C4798E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A74DCC-D365-4963-907F-BADB49C4798E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A74DCC-D365-4963-907F-BADB49C4798E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A74DCC-D365-4963-907F-BADB49C4798E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF368E03-216B-4C09-A6AF-6FD9AE77AE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF368E03-216B-4C09-A6AF-6FD9AE77AE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF368E03-216B-4C09-A6AF-6FD9AE77AE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF368E03-216B-4C09-A6AF-6FD9AE77AE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F18FB84-A1B9-4E5F-86F4-CA6F87EAC0E5}
+	EndGlobalSection
+EndGlobal

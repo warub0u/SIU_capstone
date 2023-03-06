@@ -1,0 +1,319 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/OneMap/Convert",
+      "DownstreamScheme": "http",
+      "ServiceName": "onemapapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/OneMap/Convert",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/OneMap/Route",
+      "DownstreamScheme": "http",
+      "ServiceName": "onemapapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/OneMap/Route",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Favourites",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Favourites",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Favourites",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Favourites",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Favourites/{id}",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Favourites/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/BusBookmark/{username}",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/BusBookmark/{username}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/BusBookmark",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/BusBookmark",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/BusBookmark/{id}",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/BusBookmark/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/BusBookmark/{id}",
+      "DownstreamScheme": "http",
+      "ServiceName": "favouritesapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/BusBookmark/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Taxi/Convert",
+      "DownstreamScheme": "http",
+      "ServiceName": "taxiapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Taxi/Convert",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Taxi/TimeDistance",
+      "DownstreamScheme": "http",
+      "ServiceName": "taxiapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Taxi/TimeDistance",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Taxi/Meter",
+      "DownstreamScheme": "http",
+      "ServiceName": "taxiapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Taxi/Meter",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Taxi/CDGFare",
+      "DownstreamScheme": "http",
+      "ServiceName": "taxiapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Taxi/CDGFare",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/register",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/register",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/login",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/{userName}",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/{userName}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/{userName}",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/{userName}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/getemail/{email}",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/getemail/{email}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/password",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/password",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/userinfo",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/userinfo",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/userrights",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/userrights",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/passwordreset",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/passwordreset",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/profilepic/{userName}",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/profilepic/{userName}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/User/profilepic/{userName}",
+      "DownstreamScheme": "http",
+      "ServiceName": "loginAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/User/profilepic/{userName}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Email",
+      "DownstreamScheme": "http",
+      "ServiceName": "emailapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Email",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Email/Welcome",
+      "DownstreamScheme": "http",
+      "ServiceName": "emailapi",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/Email/Welcome",
+      "UpstreamHttpMethod": [ "POST" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "consul",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}
